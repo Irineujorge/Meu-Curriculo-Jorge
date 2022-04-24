@@ -1,0 +1,66 @@
+#cartela{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cartela table{
+    border: 1px solid black;
+    margin: 5px;
+}
+
+#cartela thead tr {
+    background-color: rgb(227, 231, 12);
+}
+
+#cartela table tr {
+    font-size: 45px;
+    margin: 3px;
+}
+
+#cartela table tr td {
+    width: 75px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+#cabecalho button{
+    margin: 10px;
+    background-color: rgb(231, 198, 12);
+    width: 150px;
+    height: 60px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 15px;
+}
+
+#sorteados{
+    text-align: center;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+
+}
+
+#sorteados span {
+    font-size: 30px;
+    background-color: rgb(163, 243, 13);
+    padding: 2px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
